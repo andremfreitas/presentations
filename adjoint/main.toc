@@ -1,0 +1,3 @@
+\babel@toc {english}{}
+\beamer@sectionintoc {1}{Section Name}{3}{0}{1}
+\beamer@sectionintoc {2}{Section Name}{8}{0}{2}

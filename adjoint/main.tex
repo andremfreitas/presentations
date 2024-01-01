@@ -1,0 +1,42 @@
+% Tor Vergata - Engineering Beamer template.
+% Roberto Masocco <robmasocco@gmail.com>
+% Alessandro Tenaglia <alessandro.tenaglia42@gmail.com>
+% February 5, 2022
+
+\documentclass{beamer}
+
+% Customized document information by setting these string options
+% To leave a field empty, use "{}"
+\usepackage[
+    title={The Adjoint Method in Scientific Machine Learning},
+    subtitle={Theory and applications},
+    event={Seminar},
+    author={A. Freitas},
+    longauthor={André Freitas},
+    email={andre.marreiros.freitas@email.com},
+    %institute={Department of Physics},
+    %longinstitute={The Long Institute},
+    department={Department of Physics},
+    researchgroup={Complex Fluids \& Complex Flows Group},
+    date={January 16th, 2024}
+]{utvengbeamer}
+
+\begin{document}
+
+% --- Title page ---
+\frame{\titlepage}
+
+% --- Table of contents ---
+\begin{frame}
+\frametitle{Roadmap}
+\tableofcontents
+\end{frame}
+
+% Include sections here, like this
+% --- Section 1 ---
+\input{sections/section1}
+
+% --- Section 2 ---
+\input{sections/section2}
+
+\end{document}
